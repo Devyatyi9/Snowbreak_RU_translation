@@ -1,6 +1,6 @@
 name: Mirroring Repository
 
-on: [push, delete, workflow_dispatch]
+on: [workflow_dispatch]
 
 jobs:
   to_gitlab:
